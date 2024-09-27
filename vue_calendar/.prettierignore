@@ -1,0 +1,14 @@
+# Nuxt dev/build outputs
+.output
+.nuxt
+.nitro
+.cache
+dist
+.vscode
+
+# Node dependencies
+node_modules
+public
+
+
+!*/**.{ts,js,vue,scss,json}
