@@ -10,7 +10,7 @@ import timeGridPlugin from '@fullcalendar/timegrid'
 import interactionPlugin from '@fullcalendar/interaction'
 import { useEventModalStore } from '../../store/eventModal.store.ts'
 import { useCalendarEventsStore } from '../../store/calendarEvents.store.ts'
-import { CalendarEvent, FormEvent } from '../../types/calendar.types.ts'
+import { CalendarEvent } from '../../types/calendar.types.ts'
 
 const calendarEvents = useCalendarEventsStore()
 const eventModal = useEventModalStore()

@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/vite-env.d.ts","./src/composables/uselocalstorage.ts","./src/store/calendarevents.store.ts","./src/store/eventmodal.store.ts","./src/types/calendar.types.ts","./src/app.vue","./src/components/calendar/calendartile.vue","./src/components/calendar/eventcard.vue","./src/components/calendar/index.vue"],"errors":true,"version":"5.6.2"}
