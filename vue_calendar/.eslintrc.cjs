@@ -1,9 +1,10 @@
 module.exports = {
-  extends: [
+  "extends": [
     'eslint:recommended',
     'plugin:vue/vue3-recommended',
   ],
-  rules: {
+  "plugins": ["@typescript-eslint"],
+  "rules": {
     '@typescript-eslint/indent': ['error', 2],
     'vue/multi-word-component-names': 0,
     'no-console': 'off',

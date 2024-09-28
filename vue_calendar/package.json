@@ -9,13 +9,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.37"
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@fullcalendar/vue3": "^6.1.15",
+    "@mdi/font": "^7.4.47",
+    "nanoid": "^5.0.7",
+    "pinia": "^2.2.2",
+    "vue": "^3.4.37",
+    "vuetify": "^3.7.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.1.2",
     "eslint": "^9.11.1",
     "eslint-plugin-vue": "^9.28.0",
     "prettier": "3.3.3",
+    "sass": "^1.79.3",
+    "sass-loader": "^16.0.2",
     "typescript": "^5.5.3",
     "vite": "^5.4.1",
     "vue-tsc": "^2.0.29"
