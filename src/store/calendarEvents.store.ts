@@ -36,6 +36,7 @@ export const useCalendarEventsStore = defineStore('calendarEvents', () => {
     const eventIndex = events.value.findIndex(ev => ev.id === event.id)
     if (eventIndex < 0) return
     updateStoreEvent(eventIndex, newEvent)
+    setSelectedEvent(null)
   }
 
   const removeEvent = (id: string) => {
